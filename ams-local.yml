@@ -1,2 +1,5 @@
-server:
-  port: 9010
+spring:
+  application:
+    name: ams local
+    org: com.local
+    version: 1.1
