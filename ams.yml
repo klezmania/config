@@ -5,3 +5,8 @@ spring:
   application:
     name: ams common
     org: com.ams
+  datasource:
+    url: jdbc:oracle:thin:@localhost/FREEPDB1
+    username: system
+    password: root
+    driver-class-name: oracle.jdbc.driver.OracleDriver
